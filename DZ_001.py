@@ -2,7 +2,7 @@
 # обозначающую день недели, и проверяет, является ли этот день выходным.
 
 num = int(input('Введите число соответствующее дню недели: '))
-def checkNumber(num):
+def check_number(num):
     if 6 <= num <= 7:
         print('Да')
     elif 0 < num < 6:
@@ -10,4 +10,4 @@ def checkNumber(num):
     else:
         print('Число не соответствует дням недели!')
 
-checkNumber(num)
+check_number(num)
